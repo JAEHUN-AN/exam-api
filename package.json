@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JAEHUN-AN/exam-api/issues"
   },
-  "homepage": "https://github.com/JAEHUN-AN/exam-api#readme"
+  "homepage": "https://github.com/JAEHUN-AN/exam-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
